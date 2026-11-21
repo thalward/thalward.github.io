@@ -1,9 +1,71 @@
-<meta name="robots" content="noindex">
-<title>Page Not Found</title>
-<center>
-<br>
-<h1 style="font-family:verdana">Oops!</h1>
-<img src=lego.jpg>
-<br><br>
-<p style="font-family:verdana">Nothing found here! Please contact the domain administrator.</p>
-</center>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#ffffff">
+    <title>Everything is awesome!</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            min-height: 100dvh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            background: #ffffff;
+            color: #222222;
+            font-family: Verdana, Geneva, sans-serif;
+            text-align: center;
+        }
+
+        main {
+            width: 100%;
+            max-width: 650px;
+        }
+
+        h1 {
+            font-size: clamp(32px, 6vw, 48px);
+            margin: 0 0 24px;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 1.7;
+            margin: 28px 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Everything is awesome!</h1>
+
+        <img
+            src="lego.jpg"
+            alt="LEGO characters"
+        >
+
+        <p>
+            Except this website. There's nothing here yet!<br>
+            Please contact the domain administrator.
+        </p>
+    </main>
+</body>
+</html>
